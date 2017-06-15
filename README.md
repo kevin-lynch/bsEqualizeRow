@@ -41,11 +41,11 @@ $('.myClass').bsEqualizeRow();
 
 ## Demo
 
-View working [Demo](https://github.com/kevin-lynch)
+View working [Demo](http://kpldesigns.co.uk/github/bsEqualizeRow)
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/kevin-lynch) for details on submitting pull requests to me.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on submitting pull requests.
 
 ## Authors
 

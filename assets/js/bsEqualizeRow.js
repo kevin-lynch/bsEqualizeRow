@@ -1,3 +1,9 @@
+/*
+* Author: Kevin Lynch @ KPL Designs
+* Version: 0.01
+* Github: https://github.com/kevin-lynch/bsEqualizeRow
+*
+* */
 $.fn.bsEqualizeRow = function() {
     this.addClass('bs-col-equalise');
 
