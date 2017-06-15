@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/style.css">
+
+</head>
+<body>
+
+<div class="container">
+    <h2>Equalise Row Height When Using Bootstrap</h2>
+    <p>This plugin will equalise the height of every grid item in each row by setting them all to the same height of the highest grid item on that row</p>
+</div>
+
+<div class="container">
+    <hr />
+    <h4>Example when not using the plugin</h4>
+    <div class="row">
+        <div class="col-sm-4 col-md-3">
+            <img src="dist/img/350x150.png" alt="" title="" />
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <img src="dist/img/350x150.png" alt="" title="" />
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <img src="dist/img/350x250.png" alt="" title="" />
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <img src="dist/img/350x150.png" alt="" title="" />
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <img src="dist/img/350x150.png" alt="" title="" />
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <img src="dist/img/350x150.png" alt="" title="" />
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <img src="dist/img/350x250.png" alt="" title="" />
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <img src="dist/img/350x150.png" alt="" title="" />
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <img src="dist/img/350x150.png" alt="" title="" />
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <img src="dist/img/350x150.png" alt="" title="" />
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <img src="dist/img/350x150.png" alt="" title="" />
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <img src="dist/img/350x150.png" alt="" title="" />
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <hr />
+    <h4>Example when using the plugin</h4>
+    <div class="row">
+        <div class="myClass col-sm-4 col-md-3">
+            <img src="dist/img/350x150.png" alt="" title="" />
+        </div>
+        <div class="myClass col-sm-4 col-md-3">
+            <img src="dist/img/350x150.png" alt="" title="" />
+        </div>
+        <div class="myClass col-sm-4 col-md-3">
+            <img src="dist/img/350x250.png" alt="" title="" />
+        </div>
+        <div class="myClass col-sm-4 col-md-3">
+            <img src="dist/img/350x150.png" alt="" title="" />
+        </div>
+        <div class="myClass col-sm-4 col-md-3">
+            <img src="dist/img/350x150.png" alt="" title="" />
+        </div>
+        <div class="myClass col-sm-4 col-md-3">
+            <img src="dist/img/350x150.png" alt="" title="" />
+        </div>
+        <div class="myClass col-sm-4 col-md-3">
+            <img src="dist/img/350x250.png" alt="" title="" />
+        </div>
+        <div class="myClass col-sm-4 col-md-3">
+            <img src="dist/img/350x150.png" alt="" title="" />
+        </div>
+        <div class="myClass col-sm-4 col-md-3">
+            <img src="dist/img/350x150.png" alt="" title="" />
+        </div>
+        <div class="myClass col-sm-4 col-md-3">
+            <img src="dist/img/350x150.png" alt="" title="" />
+        </div>
+        <div class="myClass col-sm-4 col-md-3">
+            <img src="dist/img/350x150.png" alt="" title="" />
+        </div>
+        <div class="myClass col-sm-4 col-md-3">
+            <img src="dist/img/350x150.png" alt="" title="" />
+        </div>
+    </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="dist/js/bsEqualizeRow.min.js"></script>
+
+<script>
+    $( document ).ready(function() {
+        $('.myClass').bsEqualizeRow();
+    });
+</script>
+
+</body>
+</html>
